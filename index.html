@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF=8">
+    <link rel="stylesheet" href="./style.css">
+    <title>問い合わせフォーム</title>
+  </head>
+  <body>
+    <header>
+      <h1>問い合わせフォーム</h1>
+    </header>
+    <div class="form">
+      <table class="contact">
+        <tr>
+          <th>お名前</th>
+          <td><input type="text" name="name" class="name"></td>
+        </tr>
+        <tr>
+          <th>メールアドレス</th>
+          <td><input type="text" name="mail" class="mail"></td>
+        </tr>
+        <tr>
+          <th>性別</th>
+          <td style="display:inline-block; "><input type="radio" name="sex" value="男性">男性</td>
+          <td style="display:inline-block; "><input type="radio" name="sex" value="女性">女性</td>
+          <td style="display:inline-block; "><input type="radio" name="sex" value="その他">その他</td>
+          <td style="display:inline-block; "><input type="radio" name="sex" value="回答しない">回答しない</td>
+        </tr>
+        <tr>
+          <th>電話番号</th>
+          <td><input type="text" name="telephone" class="telephone"></td>
+        </tr>
+        <tr>
+          <th>住所</th>
+          <td><input type="text" name="address" class="address"></td>
+        </tr>
+        <tr>
+          <th>お問い合わせ内容</th>
+          <td><textarea name="contact" class="hoge"></textarea></td>
+        </tr>
+      </table>
+      <div>
+        <input type="submit" value"送信する" class="button">
+      </div>
+    </div>
+  </body>
+</html>

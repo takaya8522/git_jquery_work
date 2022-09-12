@@ -1,0 +1,67 @@
+html {
+  font-size: 90%;
+  height: 100%;
+  text-align: center;
+}
+body {
+ height: 100%;
+}
+.contact {
+  margin: auto;
+}
+header {
+  font-size: 20px;
+  background-color: darkcyan;
+}
+.form {
+  text-align: center;
+  margin: 0;
+  background-color: antiquewhite;
+  height: 400px;
+  padding-top: 50px;
+}
+h1 {
+  margin: 0;
+  padding: 10px;
+  color: white;
+}
+.content tr {
+  margin: 20px;
+  padding: 20px;
+}
+.name {
+  margin: 10px;
+}
+.mail {
+  margin: 10px;
+}
+.sex {
+  margin: 10px;
+}
+.telephone {
+  margin: 10px;
+}
+.address {
+  margin: 10px;
+}
+.button {
+  margin-top: 40px;
+  display       : inline-block;
+  border-radius : 20%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #0059B3;     /* 背景色     */
+  color         : #FFFFFF;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border
+        : 2px solid #0059B3;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #0059B3;     /* 背景色     */
+  background    : #FFFFFF;     /* 文字色     */
+}
