@@ -4,6 +4,9 @@
     <meta charset="UTF=8">
     <link rel="stylesheet" href="./style.css">
     <title>問い合わせフォーム</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@600;700&family=Noto+Sans+JP&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -39,15 +42,22 @@
           <td><textarea name="contact" class="hoge"></textarea></td>
         </tr>
       </table>
-      <div>
+      <div id="button_click">
         <input type="submit" value"送信する" class="button">
       </div>
+      <div id="jqs-1">
+        <p><img src="./dic.png"></p>
+        <h1>お問い合わせありがとうございます！</h1>
+      </div> 
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
     <script>
       $(function() {
-        
+        $("#button_click").click(function() {
+          $("#jqs-1 img").show('slow');
+          $("#jqs-1 h1").show('slow');
+        }); 
       });
     </script>
   </body>

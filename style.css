@@ -5,6 +5,7 @@ html {
 }
 body {
  height: 100%;
+ font-family: 'M PLUS 2', sans-serif;
 }
 .contact {
   margin: auto;
@@ -17,7 +18,7 @@ header {
   text-align: center;
   margin: 0;
   background-color: antiquewhite;
-  height: 400px;
+  height: 600px;
   padding-top: 50px;
 }
 h1 {
@@ -64,4 +65,27 @@ h1 {
   box-shadow    : none;        /* カーソル時の影消去 */
   color         : #0059B3;     /* 背景色     */
   background    : #FFFFFF;     /* 文字色     */
+}
+#jqs-1 img {
+  display: none;
+  width: 500px;
+}
+
+#jqs-1 h1 {
+  color: mediumspringgreen;
+  display: none;
+}
+
+.txtAnime {
+  display: block;
+  opacity:0;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #696969;
+}
+.txtAnime span {
+  opacity: 0;
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
 }
